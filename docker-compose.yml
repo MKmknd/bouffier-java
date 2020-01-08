@@ -1,7 +1,7 @@
 version: '3.5'
 services:
   parse:
-    image: taxio/bouffier-java:latest
+    image: m-kondo/bouffier-java:latest
     container_name: bouffier-java-sample
     volumes:
       - ./tests/resource:/bouffier-java-project

@@ -1,15 +1,15 @@
 # Bouffier Java
-This is a tool for converting Java source to AST representation.
+This is a tool for converting a Java source to an AST representation.
 
-AST file support the follow formats.
+The AST file supports the following formats:
 - yaml
 - xml
 
 ## Usage
 ### `BOUFFIER_JAVA_PROJECT_PATH`
-The specified directory contains Java sources and output AST files  (default is `/bouffier-java-project`)
+The specified directory contains Java sources and AST representations (default is `/bouffier-java-project`)
 
-This directory should have the following composition.
+This directory should be the following composition.
 
 ```bash
 projects/
@@ -24,13 +24,13 @@ So, you need to create a directory in this format and mount it.
 ### `BOUFFIER_JAVA_FORMAT`
 The format of output AST file. (default is `yaml`)
 
-You can choose the following format.
+You can choose the following formats:
 
 - yaml
 - xml
 
 ### `BOUFFIER_JAVA_PARSE_MODE`
-You can choose the following type.
+You can choose the following types:
 
 - file
 - method

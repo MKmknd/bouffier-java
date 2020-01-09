@@ -3,8 +3,8 @@ services:
   parse:
     image: m-kondo/bouffier-java:latest
     container_name: bouffier-java-sample
-    volumes:
-      - ./../tmp:/bouffier-java-project
+    #volumes:
+    #  - ./../tmp:/bouffier-java-project
     environment:
       - BOUFFIER_JAVA_FORMAT=yaml
       - BOUFFIER_JAVA_PROJECT_PATH=/bouffier-java-project
